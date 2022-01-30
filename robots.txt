@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.gameful-gadgets.org/sitemap.xml

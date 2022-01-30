@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Gameful Gadgets</title>
+    <link href="https://www.gameful-gadgets.org/feed.xml" rel="self" />
+    <link href="https://www.gameful-gadgets.org" />
+    <updated>1970-01-01T01:00:00+01:00</updated>
+    <author>
+        <name>Bimpfi</name>
+    </author>
+    <id>https://www.gameful-gadgets.org</id>
+
+</feed>
