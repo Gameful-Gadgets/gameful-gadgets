@@ -7,6 +7,14 @@ author: Markus Hülß
 
 # Project Name
 
+## Team
+
+![Example Team Member](/images/team_example.jpg)
+asdasdasdasdasddasd
+
+![Example Team Member](/images/team_example.jpg)
+asdasdasdasdasddasd
+
 ## Vision
 
 What was the vision of the project? Where did which inspirations come from? What overall experience should be created and why?
