@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://www.gameful-gadgets.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.gameful-gadgets.org/" rel="alternate" type="text/html" /><updated>2022-08-24T17:15:36+00:00</updated><id>https://www.gameful-gadgets.org/feed.xml</id><title type="html">Gameful Gadgets</title><subtitle>Gameful Gadgets is a site about creating gadgets consisting of a mixture of analog and digital technologies for creating new gaming experiences.
+</subtitle><author><name>Markus Huelss</name></author><entry><title type="html">Example Project</title><link href="https://www.gameful-gadgets.org/example-project" rel="alternate" type="text/html" title="Example Project" /><published>2022-08-24T00:00:00+00:00</published><updated>2022-08-24T00:00:00+00:00</updated><id>https://www.gameful-gadgets.org/example-project</id><content type="html" xml:base="https://www.gameful-gadgets.org/example-project">&lt;p&gt;&lt;img src=&quot;/images/example/placeholder-1.png&quot; alt=&quot;Header Image&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;team&quot;&gt;Team&lt;/h2&gt;
+
+&lt;table class=&quot;team&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;![Example Team Member](/images/example/team_example.jpg)&lt;/td&gt;
+      &lt;td&gt;![Example Team Member](/images/example/team_example.jpg)&lt;/td&gt;
+      &lt;td&gt;![Example Team Member](/images/example/team_example.jpg)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Member 1&lt;/td&gt;
+      &lt;td&gt;Member 2&lt;/td&gt;
+      &lt;td&gt;Member 3                                         \&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Software Development&lt;/td&gt;
+      &lt;td&gt;Concept&lt;/td&gt;
+      &lt;td&gt;Design&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;vision&quot;&gt;Vision&lt;/h2&gt;
+
+&lt;p&gt;What was the vision of the project? Where did which inspirations come from? What overall experience should be created and why?&lt;/p&gt;
+
+&lt;h2 id=&quot;concept&quot;&gt;Concept&lt;/h2&gt;
+
+&lt;p&gt;What is the more detailed concept for implementing the vision? Which interactions should be possible for which experiences? What is the game loop and where is which experience in it?&lt;/p&gt;
+
+&lt;h2 id=&quot;hardware&quot;&gt;Hardware&lt;/h2&gt;
+
+&lt;p&gt;What hardware was necessary to realize certain interactions? What else was necessary to use this hardware (e.g. motor drivers, external power supplies, etc.) and what had to be considered for proper function? How did everything have to be connected together? What had to be built (e.g. a case containing the hardware) and how is everything physically installed.&lt;/p&gt;
+
+&lt;h3 id=&quot;example-wiring&quot;&gt;Example Wiring&lt;/h3&gt;
+
+&lt;p&gt;This is an example of hardware connection and shows an STM32 Nucleo64 board connected to an MPU-6050 accelerometer.
+&lt;img src=&quot;images/example/wiring_example.jpg&quot; alt=&quot;Example of Wiring a STM32 Nucleo64 board with a MPU6050 acceleration sensor&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;p&gt;Which software components does the gadget consist of? Which component was written in which language and which software was used for it (e.g. IDE, build tools). What additional software was used, e.g. for versioning.&lt;/p&gt;
+
+&lt;h3 id=&quot;example-diagram&quot;&gt;Example Diagram&lt;/h3&gt;
+
+&lt;p&gt;This is an example for a class diagram made with &lt;a href=&quot;https://mermaid-js.github.io/mermaid/#/&quot;&gt;mermaid&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG5MZXZlbCA8fC0tIExldmVsMVxuTGV2ZWwgPHwtLSBMZXZlbDJcbkxldmVsIDx8LS0gTGV2ZWwzXG5MZXZlbCA6IC1MZXZlbCBuZXh0X2xldmVsXG5MZXZlbDogK3BsYXkoKVxuY2xhc3MgTGV2ZWwxe1xuLWludCByZXNvdXJjZVxufVxuY2xhc3MgTGV2ZWwyIHtcbi1pbnQgb3RoZXJfcmVzb3VyY2Vcbn1cbmNsYXNzIExldmVsMyB7XG4taW50IGFub3RoZXJfcmVzb3VyY2Vcbn0iLCJtZXJtYWlkIjpudWxsfQ&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;repo&quot;&gt;Repo&lt;/h2&gt;
+
+&lt;p&gt;Where can the code and other parts (e.g. hardware schematics) of the project be found?&lt;/p&gt;</content><author><name>Markus Hülß</name></author><summary type="html"></summary></entry></feed>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" class="html" data-theme="dark">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+      Example Project
+    
+  </title>
+
+  <!-- Begin Jekyll SEO tag v2.7.3 -->
+<meta name="generator" content="Jekyll v4.2.2">
+<meta property="og:title" content="Example Project">
+<meta name="author" content="Markus Hülß">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Gameful Gadgets is a site about creating gadgets consisting of a mixture of analog and digital technologies for creating new gaming experiences.">
+<meta property="og:description" content="Gameful Gadgets is a site about creating gadgets consisting of a mixture of analog and digital technologies for creating new gaming experiences.">
+<link rel="canonical" href="https://www.gameful-gadgets.org/example-project">
+<meta property="og:url" content="https://www.gameful-gadgets.org/example-project">
+<meta property="og:site_name" content="Gameful Gadgets">
+<meta property="og:image" content="https://soopr.xyz/images/card?url=https://www.gameful-gadgets.org/example-project">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2022-08-24T00:00:00+00:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://soopr.xyz/images/card?url=https://www.gameful-gadgets.org/example-project">
+<meta property="twitter:title" content="Example Project">
+<meta name="twitter:site" content="@gameful_gadgets">
+<meta name="twitter:creator" content="@Markus Hülß">
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Markus Hülß"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.gameful-gadgets.org/example-project"},"description":"Gameful Gadgets is a site about creating gadgets consisting of a mixture of analog and digital technologies for creating new gaming experiences.","@type":"BlogPosting","url":"https://www.gameful-gadgets.org/example-project","headline":"Example Project","dateModified":"2022-08-24T00:00:00+00:00","datePublished":"2022-08-24T00:00:00+00:00","@context":"https://schema.org"}</script>
+<script async defer data-soopr-token="pt_eb5091f9cb2a17dd9250c9b928dc62c2" src="https://sdk.soopr.co/soopr.js"></script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="https://www.gameful-gadgets.org/feed.xml" title="Gameful Gadgets">
+
+  <link rel="shortcut icon" type="image/x-icon" href="//logo.png">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+    <script type="text/javascript">
+  window.addEventListener('load', themeChange);
+  const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+  if (currentTheme)
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+  function themeChange() {
+    let button = document.querySelector('.theme-toggle');
+
+    button.addEventListener('click', function (e) {
+      let currentTheme = document.documentElement.getAttribute('data-theme');
+      if (currentTheme === 'dark') {
+        transition();
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+      } else {
+        transition();
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+
+    let transition = () => {
+      document.documentElement.classList.add('transition');
+      window.setTimeout(() => {
+        document.documentElement.classList.remove('transition');
+      }, 1000);
+    }
+  }
+</script>
+
+
+  
+</head>
+<body>
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/">home..</a>
+<h1 class="post-title">Example Project</h1>
+<p class="post-date text-bold text-upcase">
+  
+    <span class="text-bold">Markus Hülß</span> / 
+  
+  
+    <span>August 2022</span>
+  
+</p>
+
+<div class="soopr-btn" data-twitter="SooprCo">
+</div>
+
+<p><img src="/images/example/placeholder-1.png" alt="Header Image"></p>
+
+<h2 id="team">Team</h2>
+
+<table class="team">
+  <tbody>
+    <tr>
+      <td><img src="/images/example/team_example.jpg" alt="Example Team Member"></td>
+      <td><img src="/images/example/team_example.jpg" alt="Example Team Member"></td>
+      <td><img src="/images/example/team_example.jpg" alt="Example Team Member"></td>
+    </tr>
+    <tr>
+      <td>Member 1
+<br>
+Software Development</td>
+      <td>Member 2
+<br>
+Concept</td>
+      <td>Member 3
+<br>
+Design</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+<h2 id="vision">Vision</h2>
+
+<p>What was the vision of the project? Where did which inspirations come from? What overall experience should be created and why?</p>
+
+<h2 id="concept">Concept</h2>
+
+<p>What is the more detailed concept for implementing the vision? Which interactions should be possible for which experiences? What is the game loop and where is which experience in it?</p>
+
+<h2 id="hardware">Hardware</h2>
+
+<p>What hardware was necessary to realize certain interactions? What else was necessary to use this hardware (e.g. motor drivers, external power supplies, etc.) and what had to be considered for proper function? How did everything have to be connected together? What had to be built (e.g. a case containing the hardware) and how is everything physically installed.</p>
+
+<h3 id="example-wiring">Example Wiring</h3>
+
+<p>This is an example of hardware connection and shows an STM32 Nucleo64 board connected to an MPU-6050 accelerometer.
+<img src="images/example/wiring_example.jpg" alt="Example of Wiring a STM32 Nucleo64 board with a MPU6050 acceleration sensor"></p>
+
+<h2 id="software">Software</h2>
+
+<p>Which software components does the gadget consist of? Which component was written in which language and which software was used for it (e.g. IDE, build tools). What additional software was used, e.g. for versioning.</p>
+
+<h3 id="example-diagram">Example Diagram</h3>
+
+<p>This is an example for a class diagram made with <a href="https://mermaid-js.github.io/mermaid/#/">mermaid</a>.</p>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG5MZXZlbCA8fC0tIExldmVsMVxuTGV2ZWwgPHwtLSBMZXZlbDJcbkxldmVsIDx8LS0gTGV2ZWwzXG5MZXZlbCA6IC1MZXZlbCBuZXh0X2xldmVsXG5MZXZlbDogK3BsYXkoKVxuY2xhc3MgTGV2ZWwxe1xuLWludCByZXNvdXJjZVxufVxuY2xhc3MgTGV2ZWwyIHtcbi1pbnQgb3RoZXJfcmVzb3VyY2Vcbn1cbmNsYXNzIExldmVsMyB7XG4taW50IGFub3RoZXJfcmVzb3VyY2Vcbn0iLCJtZXJtYWlkIjpudWxsfQ"></p>
+
+<h2 id="repo">Repo</h2>
+
+<p>Where can the code and other parts (e.g. hardware schematics) of the project be found?</p>
+
+
+        
+          <button title="Toggle Theme" class="theme-toggle">
+  <svg viewbox="0 0 32 32" width="24" height="24" fill="currentcolor">
+    <circle cx="16" cy="16" r="14" fill="none" stroke="currentcolor" stroke-width="4"></circle>
+    <path d="
+             M 16 0
+             A 16 16 0 0 0 16 32
+             z">
+    </path>
+  </svg>
+</button>
+
+        
+        <div class="credits">© 2022 Markus Huelss
+           
+          •
+           Powered by <a href="https://www.soopr.co" target="_blank" rel="noreferrer">Soopr</a>
+           
+          •
+           Theme  <a href="https://github.com/abhinavs/moonwalk" target="_blank" rel="noreferrer">Moonwalk</a>
+        </div>
+      </div>
+    </main><script async defer data-soopr-token="pt_eb5091f9cb2a17dd9250c9b928dc62c2" src="https://sdk.soopr.co/soopr.js"></script>
+</body>
+</html>
