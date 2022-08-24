@@ -9,11 +9,12 @@ author: Markus Hülß
 
 ## Team
 
-![Example Team Member](/images/team_example.jpg)
-asdasdasdasdasddasd
+| ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
+| ![Example Team Member](/images/team_example.jpg) | ![Example Team Member](/images/team_example.jpg) | ![Example Team Member](/images/team_example.jpg) |
+| Member 1                                         | Member 2                                         | Member 3                                         \
+| Software Development                             | Concept                                          | Design                                           |
+{:.team}
 
-![Example Team Member](/images/team_example.jpg)
-asdasdasdasdasddasd
 
 ## Vision
 

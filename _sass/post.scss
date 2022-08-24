@@ -1,0 +1,13 @@
+p.team {
+  display: flex;
+}
+
+table.team {
+  border: none;
+  th, td {
+    width: auto;
+    text-align: center;
+    border: inherit;
+    padding: 1em; 
+  }
+}
