@@ -9,3 +9,5 @@ end
 gem "webrick", "~> 1.7"
 
 gem "wdm", "~> 0.1.1"
+
+gem "jekyll-soopr-seo-tag", "~> 2.7"
