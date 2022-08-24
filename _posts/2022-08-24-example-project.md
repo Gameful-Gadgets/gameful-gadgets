@@ -3,7 +3,7 @@ layout: post
 author: Markus Hülß
 ---
 
-![Header Image](/images/example/placeholder-1.webp)
+![Header Image](/images/example/placeholder-1.png)
 
 ## Team
 
@@ -28,7 +28,7 @@ What hardware was necessary to realize certain interactions? What else was neces
 ### Example Wiring
 
 This is an example of hardware connection and shows an STM32 Nucleo64 board connected to an MPU-6050 accelerometer.
-![Example of Wiring a STM32 Nucleo64 board with a MPU6050 acceleration sensor](images/example/wiring_example.png)
+![Example of Wiring a STM32 Nucleo64 board with a MPU6050 acceleration sensor](images/example/wiring_example.jpg)
 
 ## Software
 
