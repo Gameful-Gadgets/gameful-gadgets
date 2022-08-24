@@ -37,7 +37,7 @@ theme_config:
     title_old_projects: Old Projects
 
 soopr:
-  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
+  publish_token: "pt_eb5091f9cb2a17dd9250c9b928dc62c2" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
 
 highlighter: rouge
 
@@ -46,5 +46,5 @@ sass:
 
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-soopr-seo-tag
   - jekyll-spaceship
