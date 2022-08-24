@@ -10,12 +10,12 @@ navbar_entries:
 
 project_entries:
   - title: Finished Gameful Gadget
-    url: overview-post
+    url: example-project
     desc: This is an example for a finished gameful gadget project post
 
   - title: Unfinished Gameful Gadget
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
+    url: example-project
+    desc: This is an example for a unfinished gameful gadget project post
     highlight: WIP
 
 old_project_entries:

@@ -5,8 +5,6 @@ author: Markus Hülß
 
 ![Header Image](/images/example/placeholder-1.webp)
 
-# Project Name
-
 ## Team
 
 | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
@@ -14,7 +12,6 @@ author: Markus Hülß
 | Member 1                                         | Member 2                                         | Member 3                                         \
 | Software Development                             | Concept                                          | Design                                           |
 {:.team}
-
 
 ## Vision
 
@@ -58,7 +55,6 @@ classDiagram
         -int another_resource
     }
 ```
-
 
 ## Repo
 
