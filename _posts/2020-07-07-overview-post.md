@@ -1,84 +1,56 @@
 ---
 layout: post
-author: Abhinav Saxena
+author: Markus Hülß
 ---
 
-Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.
+![Header Image](/images/placeholder-1.webp)
 
-# Sample heading 1
-## Sample heading 2
-### Sample heading 3
-#### Sample heading 4
-##### Sample heading 5
-###### Sample heading 6
+# Project Name
 
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.
+## Vision
 
-## Lists
+What was the vision of the project? Where did which inspirations come from? What overall experience should be created and why?
 
-Unordered:
+## Concept
 
-- Fusce non velit cursus ligula mattis convallis vel at metus[^2].
-- Sed pharetra tellus massa, non elementum eros vulputate non.
-- Suspendisse potenti.
+What is the more detailed concept for implementing the vision? Which interactions should be possible for which experiences? What is the game loop and where is which experience in it?
 
-Ordered:
+## Hardware
 
-1. Quisque arcu felis, laoreet vel accumsan sit amet, fermentum at nunc.
-2. Sed massa quam, auctor in eros quis, porttitor tincidunt orci.
-3. Nulla convallis id sapien ornare viverra.
-4. Nam a est eget ligula pellentesque posuere.
+What hardware was necessary to realize certain interactions? What else was necessary to use this hardware (e.g. motor drivers, external power supplies, etc.) and what had to be considered for proper function? How did everything have to be connected together? What had to be built (e.g. a case containing the hardware) and how is everything physically installed.
 
-## Blockquote
+### Example Wiring
 
-The following is a blockquote:
+This is an example of hardware connection and shows an STM32 Nucleo64 board connected to an MPU-6050 accelerometer.
+![Example of Wiring a STM32 Nucleo64 board with a MPU6050 acceleration sensor](images/wiring_example.png)
 
-> Suspendisse tempus dolor nec risus sodales posuere. Proin dui dui, mollis a consectetur molestie, lobortis vitae tellus.
+## Software
 
-## Thematic breaks (<hr>)
+Which software components does the gadget consist of? Which component was written in which language and which software was used for it (e.g. IDE, build tools). What additional software was used, e.g. for versioning.
 
-Mauris viverra dictum ultricies[^3]. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. **You can put some text inside the horizontal rule like so.**
+### Example Diagram
 
----
-{: data-content="hr with text"}
+This is an example for a class diagram made with [mermaid](https://mermaid-js.github.io/mermaid/#/).
 
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. **Or you can just have an clean horizontal rule.**
-
----
-
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. Or you can just have an clean horizontal rule.
-
-## Code
-
-Now some code:
-
-```
-const ultimateTruth = 'follow middlepath';
-console.log(ultimateTruth);
+```mermaid!
+classDiagram
+    Level <|-- Level1
+    Level <|-- Level2
+    Level <|-- Level3
+    Level : -Level next_level
+    Level: +play()
+    class Level1{
+        -int resource
+    }
+    class Level2 {
+        -int other_resource
+    }
+    class Level3 {
+        -int another_resource
+    }
 ```
 
-And here is some `inline code`!
 
-## Tables
+## Repo
 
-Now a table:
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-## Images
-
-![theme logo](http://www.abhinavsaxena.com/images/abhinav.jpeg)
-
-This is an image[^4]
-
----
-{: data-content="footnotes"}
-
-[^1]: this is a footnote. You should reach here if you click on the corresponding superscript number.
-[^2]: hey there, don't forget to read all the footnotes!
-[^3]: this is another footnote.
-[^4]: this is a very very long footnote to test if a very very long footnote brings some problems or not; hope that there are no problems but you know sometimes problems arise from nowhere.
+Where can the code and other parts (e.g. hardware schematics) of the project be found?
